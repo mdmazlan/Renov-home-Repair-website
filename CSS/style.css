@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* 
+    Created by: Md Mazlan;
+    Date: 04 Jul 2021;
+    library: bootstrap, font-awesome
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\header  area css start//////////////////// */
+.nav-txt-logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nav-logo-brand {
+    display: flex !important;
+    height: 64px;
+}
+
+ul.navbar-nav.mr-auto {
+    margin: 0 auto;
+}
+
+ul.navbar-nav.mr-auto {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button.btn.login {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button.btn.btn-primary.signup {
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #9E72B8;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\header  area css End//////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 1 area start //////////////////// */
+
+.row.section1 {
+    margin-top: 60px;
+}
+
+.txt-ger-your-next {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+span.span-done {
+    background-color: #E9F3F6;
+    border: 2px dashed #5fb4b7;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.txt-fill-a-short {
+    font-size: 20px;
+    opacity: 0.8;
+    padding-right: 30px;
+    margin-top: 45px;
+}
+
+
+
+button.btn.btn-primary.btn-registersec1 {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #5FB4B7;
+    border-radius: 18px;
+    margin-top: 20px;
+    border: none;
+    padding: 15px;
+}
+
+img.img-circle1 {
+    width: 70%;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 1 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 2 area Start //////////////////// */
+
+.row.section2 {
+    margin-top: 44px;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+img.search-icon {
+    height: 28px;
+    width: 28px;
+}
+
+li.li-bar {
+    display: inline-block;
+    width: 2px;
+    border: 1px solid rgb(212, 212, 212);
+    height: 90px;
+}
+
+h4.txt-category {
+    margin-left: 32px;
+}
+
+p.txt-category {
+    margin-left: 60px;
+    opacity: 0.8;
+}
+
+h4.txt-category {
+    margin-left: 32px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+button.btn.btn-primary.btn-register-pro-sec2 {
+    margin: 10px auto;
+    width: 210px;
+    font-size: 22px;
+    background-color: #5FB4B7;
+    border: none;
+    font-weight: 500;
+    border-radius: 18px;
+    margin-top: 18px;
+    padding: 15px;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 2 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 3 area Start //////////////////// */
+
+.row.section3 {
+    margin-top: 60px;
+    align-items: baseline;
+
+}
+
+.btn-all-top-categoris {
+    margin-left: 60px;
+
+}
+
+button.btn-rooftoping {
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 18px;
+    height: 53px;
+    font-size: 22px;
+    margin-right: 20px;
+    width: 129px;
+}
+
+button.btn-window {
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 18px;
+    font-size: 22px;
+    margin-right: 20px;
+    height: 53px;
+    width: 129px;
+}
+
+button.btn-electronics {
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 18px;
+    font-size: 22px;
+    height: 53px;
+    width: 154px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 3 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 4 area Start //////////////////// */
+.txt-here-is-section4 {
+    margin-top: 60px;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform 0.6s;
+    background-color: white;
+    width: 256px;
+    height: 280px;
+    border-radius: 18px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    border: 1px solid #DADADA;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    /* this line only for IE 9 */
+    -webkit-transform: scale(1.5);
+    background-color: #5FB4B7;
+    color: white;
+    /* this line only for Safari 3-8 */
+    transform: scale(1.1);
+
+}
+
+.all-txt-zoom {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 4 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 5 area Start //////////////////// */
+
+.row.section5.justify-content-between {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.txt-section5-item1 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.txt-section5-item2 {
+    font-size: 20px;
+    color: #9E71B8;
+    font-weight: 600;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 5 area END //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 6 area Start //////////////////// */
+
+.card.section6-item1 {
+    border-radius: 1.25rem;
+    align-items: center;
+    box-shadow: 0 0 10px 1px rgb(0 0 0 / 20%);
+}
+
+.card.section6-item2 {
+    border-radius: 1.25rem;
+    align-items: center;
+    box-shadow: 0 0 10px 1px rgb(0 0 0 / 20%);
+
+}
+
+.card.section6-item3 {
+    border-radius: 1.25rem;
+    align-items: center;
+    box-shadow: 0 0 10px 1px rgb(0 0 0 / 20%);
+
+}
+
+h5.card-title {
+    font-size: 24px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 6 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 7 area Start //////////////////// */
+
+.row.section7.justify-content-between {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.txt-section7-item1 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.txt-section7-item2 {
+    font-size: 20px;
+    color: #9E71B8;
+    font-weight: 600;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 7 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 8 area End //////////////////// */
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.flex-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.container-grid .flex-item h2 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 8 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 9 area Start //////////////////// */
+
+img.now-hireing {
+    width: 450px;
+}
+
+h2.txt-why-all-section9 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p.txt-not-all-section9 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+button.btn.btn-primary.btn-register-pro-sec1 {
+    margin-top: 50px;
+    font-size: 18px;
+    height: 86px;
+    font-weight: 500;
+    width: 250px;
+    background-color: #5FB4B7;
+    border-radius: 14px;
+    border: none;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 9 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 10area Start //////////////////// */
+
+/* zoom */
+.txt-here-is-section4 {
+    margin-top: 60px;
+}
+
+
+.card-profile {
+    padding: 50px;
+    background-color: rgb(238, 238, 238);
+    transition: transform 0.6s;
+    width: 256px;
+    height: 280px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 50px auto;
+}
+
+/* zoom */
+
+
+section#carousel-section10 {
+    background-color: #5FB4B7;
+    margin-top: 70px;
+}
+
+h2.txt-top-rated-sec10 {
+    width: 504px;
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.carousel-item.active {
+    width: 130%;
+}
+
+.card-profile.first-item.text-center {
+    width: 450px;
+    height: 500px;
+}
+
+.all-txt-card {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+span.fa.fa-star.checked {
+    color: #FFD600;
+}
+
+p.p-tag-handy {
+    opacity: 0.8;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+h4.txt-lastest {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 39px;
+}
+
+p.txt-he-was {
+    font-size: 16px;
+}
+
+h4.txt-title {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+button.btn.btn-primary.btn-lg.all-pros {
+    margin-top: 24px;
+    background-color: white;
+    font-size: 14px;
+    height: 66px;
+    width: 247px;
+    color: #9E72B8;
+    border: none;
+    margin-bottom: 53px;
+}
+
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\Section 10 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 11 area Start //////////////////// */
+.row.section11 {
+    margin-top: 100px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 11 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 12 area Start //////////////////// */
+
+.row.section12 {
+    margin-top: 70px;
+}
+
+.bg-5000 {
+    background-color: #f3f3f3;
+    border-radius: 18px;
+    text-align: center;
+    margin: 0 0 30px 0;
+    height: 140px;
+}
+
+.bg-5000-item {
+    position: relative;
+    top: 30px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 12 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Section 13 area Start //////////////////// */
+
+.container.section13 {
+    margin-top: 100px;
+}
+
+.div-sec13-item {
+    padding: 84px;
+    border-radius: 30px;
+    height: 425px;
+    background: linear-gradient(to right, #9E72B8 0%, #62B1B7 100%);
+}
+
+h2.txt-looking-sec13 {
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+}
+
+button.btn.btn-primary.btn-lg {
+    margin-top: 40px;
+    background-color: white;
+    font-size: 14px;
+    height: 65px;
+    width: 217px;
+    border-radius: 1.25rem;
+    color: #9E72B8;
+    border: none;
+    margin-bottom: 53px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Section 13 area End //////////////////// */
+/* \\\\\\\\\\\\\\\\\\\\Footer area Start //////////////////// */
+
+.container.section14 {
+    margin-top: 78px;
+}
+
+.footer-bg {
+    background-color: #F8F8F8;
+}
+
+.row.footer-sec14 {
+    margin-top: 30px;
+}
+
+.col.list-item-sec14 {
+    list-style: none;
+    font-size: 20px;
+}
+
+.row.footer.justify-content-between {
+    margin-top: 40px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\Footer area End //////////////////// */
